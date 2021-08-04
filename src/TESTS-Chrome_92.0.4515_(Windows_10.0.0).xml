@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 92.0.4515 (Windows 10.0.0)" package="" timestamp="2021-08-04T15:19:29" id="0" hostname="DESKTOP-FFK8Q7K" tests="30" errors="0" failures="0" time="1.83">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.262" classname="Chrome_92_0_4515_(Windows_10_0_0).AppComponent"/>
+  <testcase name="AppComponent should have as title 'angular-unit-testing'" time="0.083" classname="Chrome_92_0_4515_(Windows_10_0_0).AppComponent"/>
+  <testcase name="AppComponent should render title in a h1 tag" time="0.107" classname="Chrome_92_0_4515_(Windows_10_0_0).AppComponent"/>
+  <testcase name="CommonExamplesComponent should create" time="0.117" classname="Chrome_92_0_4515_(Windows_10_0_0).CommonExamplesComponent"/>
+  <testcase name="CommonExamplesComponent should set the result when getResult method is called" time="0.097" classname="Chrome_92_0_4515_(Windows_10_0_0).CommonExamplesComponent"/>
+  <testcase name="CommonExamplesComponent should set the result of arithmetic operation when button is clicked" time="0.077" classname="Chrome_92_0_4515_(Windows_10_0_0).CommonExamplesComponent"/>
+  <testcase name="DomTestingComponent should create" time="0.052" classname="Chrome_92_0_4515_(Windows_10_0_0).DomTestingComponent"/>
+  <testcase name="DomTestingComponent should not have the DOM element initially as flag is false" time="0.118" classname="Chrome_92_0_4515_(Windows_10_0_0).DomTestingComponent"/>
+  <testcase name="DomTestingComponent should contain dom element when flag is set to true" time="0.224" classname="Chrome_92_0_4515_(Windows_10_0_0).DomTestingComponent"/>
+  <testcase name="DomTestingComponent should have toggle button name based on flag" time="0.037" classname="Chrome_92_0_4515_(Windows_10_0_0).DomTestingComponent"/>
+  <testcase name="InputOutputTestingComponent should create" time="0.06" classname="Chrome_92_0_4515_(Windows_10_0_0).InputOutputTestingComponent"/>
+  <testcase name="InputOutputTestingComponent should correctly render the passed @Input value" time="0.052" classname="Chrome_92_0_4515_(Windows_10_0_0).InputOutputTestingComponent"/>
+  <testcase name="InputOutputTestingComponent should emit the event when button is clicked" time="0.05" classname="Chrome_92_0_4515_(Windows_10_0_0).InputOutputTestingComponent"/>
+  <testcase name="MockingDependenciesExampleComponent should create and invoke getDummyData method" time="0.031" classname="Chrome_92_0_4515_(Windows_10_0_0).MockingDependenciesExampleComponent"/>
+  <testcase name="SampleStructureComponent should create" time="0.043" classname="Chrome_92_0_4515_(Windows_10_0_0).SampleStructureComponent"/>
+  <testcase name="HighlightDirective should highlight content when hovering over input" time="0.047" classname="Chrome_92_0_4515_(Windows_10_0_0).HighlightDirective"/>
+  <testcase name="DashboardComponent should create" time="0.036" classname="Chrome_92_0_4515_(Windows_10_0_0).DashboardComponent"/>
+  <testcase name="LoginComponent should create" time="0.035" classname="Chrome_92_0_4515_(Windows_10_0_0).LoginComponent"/>
+  <testcase name="SignupComponent should create" time="0.04" classname="Chrome_92_0_4515_(Windows_10_0_0).SignupComponent"/>
+  <testcase name="AccountService should be created" time="0.034" classname="Chrome_92_0_4515_(Windows_10_0_0).AccountService"/>
+  <testcase name="DashboardService should be created" time="0.058" classname="Chrome_92_0_4515_(Windows_10_0_0).DashboardService"/>
+  <testcase name="FacadeService should be created" time="0.022" classname="Chrome_92_0_4515_(Windows_10_0_0).FacadeService"/>
+  <testcase name="LoginService should be created" time="0.012" classname="Chrome_92_0_4515_(Windows_10_0_0).LoginService"/>
+  <testcase name="SignupService should be created" time="0.027" classname="Chrome_92_0_4515_(Windows_10_0_0).SignupService"/>
+  <testcase name="SearchPipe create an instance" time="0.002" classname="Chrome_92_0_4515_(Windows_10_0_0).SearchPipe"/>
+  <testcase name="SearchPipe should filter the result based on the searchText" time="0.001" classname="Chrome_92_0_4515_(Windows_10_0_0).SearchPipe"/>
+  <testcase name="FacadeService should be created" time="0.016" classname="Chrome_92_0_4515_(Windows_10_0_0).FacadeService"/>
+  <testcase name="FacadeService should invoke http method and return data when getData method is called" time="0.029" classname="Chrome_92_0_4515_(Windows_10_0_0).FacadeService"/>
+  <testcase name="FacadeService Testing Promises" time="0.03" classname="Chrome_92_0_4515_(Windows_10_0_0).FacadeService"/>
+  <testcase name="FacadeService should call respective operation method and return results, when performArithmenticOperations is called" time="0.031" classname="Chrome_92_0_4515_(Windows_10_0_0).FacadeService"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
