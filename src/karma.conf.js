@@ -5,13 +5,6 @@ module.exports = function (config) {
   config.set({
     basePath: '',
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
-    files: [
-      'src/**/*.js',
-      'test/**/*.js'
-  ],
-  preprocessors: {
-    'src/**/*.js': ['coverage']
-},
     plugins: [
       require('karma-jasmine'),
       require('karma-chrome-launcher'),
@@ -27,12 +20,11 @@ module.exports = function (config) {
     },
     coverageIstanbulReporter: {
       dir: require('path').join(__dirname, '../coverage/angular-unit-testing'),
-      reports: ['cobertura', 'lcovonly', 'text-summary'],
+      reports: ['html', 'cobertura', 'lcovonly', 'text-summary'],
       fixWebpackSourcePaths: true,
     },
     coverageReporter: {
       includeAllSources: true,
-      dir: require('path').join(__dirname, '..report/coverage/'),
       reporters: [
           { type: "cobertura", subdir: ".", file: 'cobertura.xml' },
           { type: 'text-summary' }
@@ -51,4 +43,3 @@ module.exports = function (config) {
     }
   });
 };
-
